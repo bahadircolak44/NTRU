@@ -1,4 +1,6 @@
 # NTRU
+"Please look at Key Exchange Paper" for more explanation
+
 NTRU Key Exchange Protocol
 Key exchange is a trusted and functional method in cryptography. This cryptographic method centered exchanging keys between two parties, allowing use of a cryptographic algorithm.
 To be able to exchanging ecrypted messages, both sides of process must be equipped to encrypt messages to be sent and decrypt messages received. The nature of the equipping they require depends on the encryption technique they might use. If they use a code, both will require a copy of the same codebook. If they use a cipher, they will need appropriate keys. If the cipher is a symmetric key cipher, both will need a copy of the same key. If an asymmetric key cipher with the public/private key property, both will need the other's public key.
